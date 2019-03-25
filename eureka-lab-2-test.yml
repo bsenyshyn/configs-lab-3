@@ -7,3 +7,10 @@ eureka:
     fetchRegistry: false
   server:
     waitTimeInMsWhenSyncEmpty: 0
+
+spring:
+  jackson:
+    serialization:
+      indent_output: true
+
+
