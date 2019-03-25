@@ -11,3 +11,19 @@ eureka:
 management:
   security:
     enabled: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  jackson:
+    serialization:
+      indent_output: true
